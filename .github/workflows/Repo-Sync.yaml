@@ -48,7 +48,7 @@ jobs:
       - name: JD_Diy
         run: |
           bash Scripts/Sync.sh \
-            https://github.com/chiupam/JD_Diy master \
+            https://github.com/chiupam/JD_Diy main \
             https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/JD-Diy
       - name: curtinlv
         run: |
