@@ -84,7 +84,7 @@ jobs:
       - name: 小埋
         run: |
           bash Scripts/Sync.sh \
-            https://github.com/mmnvnmm/omo.git main \
+            https://github.com/mmnvnmm/omo.git master \
             https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/omo
       - name: DDO
         run: |
