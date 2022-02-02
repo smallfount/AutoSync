@@ -40,11 +40,6 @@ jobs:
             https://github.com/ZCY01/daily_scripts main \
             https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/ZCY01
 
-      - name: airacg
-        run: |
-          bash Scripts/Sync.sh \
-            https://github.com/airacg/jd_task main \
-            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/airacg
       - name: JD_Diy
         run: |
           bash Scripts/Sync.sh \
