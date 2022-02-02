@@ -27,80 +27,80 @@ jobs:
         run: |
           bash Scripts/Sync.sh \
             https://github.com/SuMaiKaDe/bot main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/JD-Bot
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/JD-Bot
       - name: JDHelloWorld
         run: |
           bash Scripts/Sync.sh \
             https://github.com/JDHelloWorld/jd_scripts main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/jd-scripts ts2js
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/jd-scripts ts2js
 
       - name: ZCY01
         run: |
           bash Scripts/Sync.sh \
             https://github.com/ZCY01/daily_scripts main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/ZCY01
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/ZCY01
 
       - name: airacg
         run: |
           bash Scripts/Sync.sh \
             https://github.com/airacg/jd_task main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/airacg
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/airacg
       - name: JD_Diy
         run: |
           bash Scripts/Sync.sh \
             https://github.com/chiupam/JD_Diy master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/JD-Diy
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/JD-Diy
       - name: curtinlv
         run: |
           bash Scripts/Sync.sh \
             https://github.com/curtinlv/JD-Script main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/curtinlv
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/curtinlv
 
       - name: jiulan
         run: |
           bash Scripts/Sync.sh \
             https://github.com/jiulan/platypus main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/jiulan
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/jiulan
       - name: star261
         run: |
           bash Scripts/Sync.sh \
             https://github.com/star261/jd main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/star261
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/star261
       - name: smiek2121
         run: |
           bash Scripts/Sync.sh \
             https://github.com/smiek2121/scripts master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/smiek2121
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/smiek2121
       - name: X1a0He
         run: |
           bash Scripts/Sync.sh \
             https://github.com/X1a0He/jd_scripts_fixed main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/X1a0He
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/X1a0He
       - name: Aaron-lv
         run: |
           bash Scripts/Sync.sh \
             https://github.com/Aaron-lv/sync.git jd_scripts \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/Aaron-lv
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/Aaron-lv
       - name: 小埋
         run: |
           bash Scripts/Sync.sh \
             https://github.com/mmnvnmm/omo.git main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/omo
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/omo
       - name: DDO
         run: |
           bash Scripts/Sync.sh \
             https://github.com/hyzaw/AllJDScripts master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/DDO
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/DDO
       - name: Zero205
         run: |
           bash Scripts/Sync.sh \
             https://github.com/zero205/JD_tencent_scf main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/Zero205
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/Zero205
       - name: 小埋bak1
         run: |
           bash Scripts/Sync.sh \
             https://github.com/DomaUmaruUMR/bak1.git main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/DovFork/bak1
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/smallfount/bak1
             
             
         
