@@ -11,8 +11,8 @@ dest_repo=$3
 params=$4
 
 commit(){
-    git config user.email "smallfount@gmail.com"
-    git config user.name "smallfount"
+    git config user.email "smallfount.bot@gmail.com"
+    git config user.name "smallfount.bot"
     git add .
     git commit -am "Update"
     git push --porcelain > /tmp/git_log
