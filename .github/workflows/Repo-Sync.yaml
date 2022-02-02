@@ -32,7 +32,7 @@ jobs:
         run: |
           bash Scripts/Sync.sh \
             https://github.com/JDHelloWorld/jd_scripts main \
-            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/jd-scripts ts2js
+            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/JDHelloWorld
 
       - name: ZCY01
         run: |
@@ -100,7 +100,7 @@ jobs:
         run: |
           bash Scripts/Sync.sh \
             https://github.com/DomaUmaruUMR/bak1.git main \
-            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/bak1
+            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/UMR_Faker_bak1
             
             
         
