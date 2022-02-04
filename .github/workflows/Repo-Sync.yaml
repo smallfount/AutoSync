@@ -96,6 +96,16 @@ jobs:
           bash Scripts/Sync.sh \
             https://github.com/DomaUmaruUMR/bak1.git main \
             https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/UMR_Faker_bak1
+      - name: YYDS
+        run: |
+          bash Scripts/Sync.sh \
+            https://github.com/okyyds/yyds.git main \
+            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/YYDS
+      - name: YYDS Pure
+        run: |
+          bash Scripts/Sync.sh \
+            https://github.com/okyyds/yydspure.git main \
+            https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/YYDSPure
             
             
         
