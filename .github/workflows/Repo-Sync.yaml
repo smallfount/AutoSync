@@ -99,12 +99,12 @@ jobs:
       - name: YYDS
         run: |
           bash Scripts/Sync.sh \
-            https://github.com/okyyds/yyds.git main \
+            https://github.com/okyyds/yyds.git master \
             https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/YYDS
       - name: YYDS Pure
         run: |
           bash Scripts/Sync.sh \
-            https://github.com/okyyds/yydspure.git main \
+            https://github.com/okyyds/yydspure.git master \
             https://${{ secrets.REPOSITORY_OWNER }}:${{ secrets.BOT_TOKEN }}@github.com/smallfount/YYDSPure
             
             
